@@ -1,0 +1,28 @@
+<!-- <?php
+$conn = mysqli_connet("localhost", "root", "", "hotel_db");
+if(!$conn){
+    die ("fail to connet the database hotel")""
+}
+if (isset($_POST['Proceed'])){
+    $Id=mysqli_real_escape_string($conn, $_POST['C_Id']);
+    $Name=mysqli_real_escape_string($conn, $_POST['Name']);
+    $Email=mysqli_real_escape_string($conn, $_POST['Email']);
+    $B_date=mysqli_real_escape_string($conn, $_POST['B_date']);
+    $L_date=mysqli_real_escape_string($conn, $_POST['L_date']);
+
+    $sql = "insert into hotel_db  (`Name`, `Email`,`Customer_Id`,`Book_Date`,`Leave_Date`, )
+            value('$Id','$Name','$Email','$B_date','$L_date',)";
+    
+
+$data = mysqli_query($conn,$sql);
+if ($data){
+    $SESSION['msg'];
+    header('locationnn:bb.html');
+
+}
+else
+$SESSION['msg'] = "Failed To Add The Booking.";
+    header('locationnn:bb.html');
+            
+}
+?> -->
