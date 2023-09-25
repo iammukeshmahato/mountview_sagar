@@ -510,7 +510,15 @@
 }
 
 
+.tm-room1 button{
+    width: 100%;
+    background: transparent;
 
+}
+
+.tm-room1 button a{
+    text-decoration: none;
+}
 /* booking */
 
 .tm-booking {

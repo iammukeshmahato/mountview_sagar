@@ -52,7 +52,7 @@
       <th>Customer id</th>
         <th>Customer Name</th>
         <th>Customer Email</th>
-        <th>Customer Phone</th>
+        <!-- <th>Customer Phone</th> -->
         <th>Type of Room</th>
         <th>Number of Rooms</th>
         <th>Number of Guest</th>
@@ -70,7 +70,7 @@
         echo "<td>".$row['id']."</td>";
         echo "<td>".$row['name']."</td>";
         echo "<td>".$row['email']."</td>";
-        echo "<td>".$row['number']."</td>";
+        // echo "<td>".$row['number']."</td>";
         echo "<td>".$row['rooms']."</td>";
         echo "<td>".$row['t_room']."</td>";
         echo "<td>".$row['t_guest']."</td>";
